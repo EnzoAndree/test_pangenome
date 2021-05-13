@@ -1,13 +1,21 @@
 {
-	"file": "https://raw.githubusercontent.com/EnzoAndree/test_pangenome/main/pangenome.bin.csv",
-	"name": "Pangenome",
-	"header": 0,
-	"separator": ",",
-	"skip": 0,
-	"meta": [
-		{ "type": "id", "index": 0, "name": "Gene Name" },
-	],
-	"sets": [
-		{ "format": "binary", "start": 1, "end": 10 }
-	]
+   "file":"https://raw.githubusercontent.com/EnzoAndree/test_pangenome/main/pangenome.bin.csv",
+   "name":"Pangenome",
+   "header":0,
+   "separator":",",
+   "skip":0,
+   "meta":[
+      {
+         "type":"id",
+         "index":0,
+         "name":"Gene Name"
+      }
+   ],
+   "sets":[
+      {
+         "format":"binary",
+         "start":1,
+         "end":10
+      }
+   ]
 }
